@@ -1,0 +1,24 @@
+whenever overriding methods of child will be invoked.
+variables of parent class will be invoked.
+Dynamic binding:- at runtime the constructor intialized,the compiler will not raise an error when there is extends keyword.
+
+
+
+polymorphism:- Doing a task in many ways.
+
+static/compile time polymorphism :-
+	the number of parameters can vary.
+	the order of parameters can vary.
+	the return type of parameters.
+dynamic/runtime polymorphism :-
+	
+
+
+
+
+in java to declare a constant we use "final" keyword.
+method is declared as final then it cannot be used in sub class.
+class is declared as final cannot be extended in other class.
+
+static method can be overloaded but cannot be override
+

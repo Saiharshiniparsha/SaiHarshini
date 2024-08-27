@@ -1,0 +1,80 @@
+
+Because of primitive dataatypes java is not 100% oop.
+to solve this wrapper classess are used
+int-->Intger class
+float-->Float class
+char-->Character
+double-->Double
+boolean-->Boolean
+byte-->Byte
+
+
+
+framework
+collection in inbuild datastructures is called collection framework.
+                   iterable(interface)
+
+		   collection(interface)
+
+	list(interface)       queue               set
+.arraylist	        .priority queue           .Hashset
+.linkedlist             >dequeue                   .LinkedHashSet      
+.vector                                                    >TreeSet(cant store null values).
+
+
+
+
+Arraylist :-
+when the type is not mentioned the arraylist can accept any type of data.
+It accepts null values.
+It maintains insertion order.
+It allows duplication.
+It supports indexing.
+We can perform intersion and deletion,updation.
+
+to acess an element :- O(n)
+to add an elements:- O(n)
+to add element at middle :-O(n/2)=O(n)
+
+Linkedlist:-
+not contigious
+sequencial
+by default linkedlist in java is doubly linked list.
+problem:inserting an element at the middle of the list which datastructure is effective linkedlist or arraylist?
+sol:-Linkedlist is effective.timecomplexcity is O(1) since addresses are accesible.
+inserting an element at the end both the linked list and array list is O(n).
+inserting an element at the beginning arraylist timecomplexcity is O(n) and linkedlist is O(1).
+
+
+
+vector:
+	similar to arraylist
+	but synchronous.
+
+
+hashset:-
+indexing is not possible.
+hashset does not allow duplicates.
+
+LinkedHashSet:-
+It maintains insertion order
+Does not allow Duplicates.
+
+TreeSet:-
+Does not allow duplicates.
+It does not allow null values. time complexcity is more because it sorts the elements.
+
+
+Map:-i)HashMap ii)TreeMap
+It is collection of data in the form of  key-value pairs.
+Keys are unique and values can be duplicated.
+
+TreeMap
+does  not allow null values.
+
+
+
+
+
+
+

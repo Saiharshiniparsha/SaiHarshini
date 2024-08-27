@@ -1,0 +1,43 @@
+Day6
+-------
+Key elements tags
+1.<header>:used to give headings
+2.<nav>:contains navigation links
+3.<section>:represents a individual sections in a class
+4.<article>:represents a self contained composition that can be distributed independently.
+5.<aside>:like a side bar
+6.<div>:a generic container for grouping and styling content.
+
+
+
+
+
+css
+-----
+types of css:
+1.inline css
+2.internal css
+3.external css
+
+properties:
+1.font-family:specifies font family or type space
+     eg:font-family:Arial,sans-serif;
+2.font-size:specifies the size of the font
+     eg;font-size:10px;
+    {px-pixels}
+3.font-style:specifies the diff style of the text
+     eg:font-style:italic;
+        font-style:oblique;
+4.font-varient:is usd to change te text either capital or small letters
+5.letter-spacing: is used to giv spce b/w letters
+     eg:letter-spacing: 5px; 
+6.<span>:is use to highlite the wante text e canmodifie tat as we required
+     eg:<span style="font-weight: bolder; </span>
+7.<word sacing>:is usedt gve space b/w the words
+     eg:word-spacing: 5px;
+8.text-tranform:it used to get first letter as capitl in each wor
+     eg:text-transform: capitalize;
+9.txt-decoration:isusedto decarat the tt like underlne dotted line overline.
+     eg:<span style="text-decoration:underline;">
+10.ackgroundcolor:is used to give background color for text or anything
+     eg:<span style="background-color:blue;">
